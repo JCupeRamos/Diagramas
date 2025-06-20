@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Caso de Uso - Bautizos Individuales" id="use-case-diagram-bautizos">
+    <mxGraphModel dx="1307" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system-boundary" value="Sistema de Punto de Venta Parroquial" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=#f8f9fa;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="100" width="720" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="feligres-actor" value="FeligrÃ©s" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="secretaria-actor" value="SecretarÃ­a&#xa;Parroquial" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="solicitar-bautizo" value="Solicitar&#xa;Bautizo Individual" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1f5fe;" parent="1" vertex="1">
+          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="determinar-costo" value="Determinar&#xa;Costo segÃºn&#xa;Edad" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;" parent="1" vertex="1">
+          <mxGeometry x="725" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="registrar-bautizo" value="Registrar&#xa;Bautizo en&#xa;Sistema" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;" parent="1" vertex="1">
+          <mxGeometry x="870" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="realizar-pago" value="Realizar&#xa;Pago" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1f5fe;" parent="1" vertex="1">
+          <mxGeometry x="390" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emitir-recibo" value="Emitir&#xa;Recibo de Pago" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ingresar-datos" value="Ingresar Datos&#xa;del NiÃ±o/a" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e8f5e8;" parent="1" vertex="1">
+          <mxGeometry x="340" y="510" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="especificar-edad" value="Especificar&#xa;Edad del&#xa;Candidato" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e8f5e8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="510" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="consultar-tarifas" value="Consultar&#xa;Tarifas por&#xa;Edad" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fce4ec;" parent="1" vertex="1">
+          <mxGeometry x="770" y="310" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agendar-fecha" value="Agendar&#xa;Fecha de&#xa;Bautizo" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fce4ec;" parent="1" vertex="1">
+          <mxGeometry x="595" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="validar-documentos" value="Validar&#xa;Documentos&#xa;Requeridos" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fce4ec;" parent="1" vertex="1">
+          <mxGeometry x="730" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="generar-certificado" value="Generar&#xa;Certificado&#xa;de Bautizo" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fce4ec;" parent="1" vertex="1">
+          <mxGeometry x="870" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-feligres-solicitar" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="feligres-actor" target="solicitar-bautizo" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-feligres-pagar" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="feligres-actor" target="realizar-pago" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-feligres-datos" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="feligres-actor" target="ingresar-datos" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-feligres-edad" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="feligres-actor" target="especificar-edad" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-costo" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="determinar-costo" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-registrar" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="registrar-bautizo" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-recibo" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="emitir-recibo" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-tarifas" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="consultar-tarifas" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-agendar" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="agendar-fecha" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-validar" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="validar-documentos" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-secretaria-certificado" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="secretaria-actor" target="generar-certificado" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="290" as="sourcePoint" />
+            <mxPoint x="920" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-solicitar-datos" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="solicitar-bautizo" target="ingresar-datos" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="395" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-solicitar-edad" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="solicitar-bautizo" target="especificar-edad" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="200" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-costo-tarifas" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="determinar-costo" target="consultar-tarifas" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="220" as="sourcePoint" />
+            <mxPoint x="675" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-registrar-agendar" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="registrar-bautizo" target="agendar-fecha" edge="1">
+          <mxGeometry x="0.6286" y="16" width="160" relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-registrar-validar" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="registrar-bautizo" target="validar-documentos" edge="1">
+          <mxGeometry x="-0.0435" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="200" as="sourcePoint" />
+            <mxPoint x="535" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include-pago-recibo" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="realizar-pago" target="emitir-recibo" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="290" as="sourcePoint" />
+            <mxPoint x="580" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extend-recibo-certificado" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="emitir-recibo" target="generar-certificado" edge="1">
+          <mxGeometry x="0.8144" y="8" width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="320" as="sourcePoint" />
+            <mxPoint x="675" y="440" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title" value="Diagrama de Casos de Uso - Registro y Pago de Bautizos Individuales" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeWidth=1;strokeColor=#dee2e6;" parent="1" vertex="1">
+          <mxGeometry x="50" y="340" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Leyenda:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-feligres" value="í ½í´µ Casos de Uso del FeligrÃ©s" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="375" width="180" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-secretaria" value="í ½í¿  Casos de Uso de SecretarÃ­a" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="395" width="180" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-shared" value="í ½í¿¢ Casos de Uso Compartidos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="415" width="180" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-support" value="í ½í¿£ Casos de Apoyo/Sistema" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="435" width="180" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-relations" value="--- Include/Extend Relations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="455" width="180" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-time" value="â±ï¸ Tiempo: 10 minutos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="475" width="180" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
