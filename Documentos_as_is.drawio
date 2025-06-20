@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Caso de Uso - Documentos Parroquiales" id="parish-documents-use-case-diagram">
+    <mxGraphModel dx="1111" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system-boundary" value="Sistema de Punto de Venta Parroquial" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;startSize=40;fillColor=#e8f5e8;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="50" width="720" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Solicitar documento parroquial especÃ­fico" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e3f2fd;strokeColor=#1565c0;" parent="system-boundary" vertex="1">
+          <mxGeometry x="40" y="80" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Verificar datos requeridos para documento" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;strokeColor=#e65100;" parent="system-boundary" vertex="1">
+          <mxGeometry x="280" y="80" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Generar documento solicitado" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;strokeColor=#e65100;" parent="system-boundary" vertex="1">
+          <mxGeometry x="520" y="80" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="Realizar pago por documento" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e3f2fd;strokeColor=#1565c0;" parent="system-boundary" vertex="1">
+          <mxGeometry x="40" y="230" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="Entregar documento y recibo" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff3e0;strokeColor=#e65100;" parent="system-boundary" vertex="1">
+          <mxGeometry x="280" y="230" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="Solicitar certificado de bautismo" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="40" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" value="Solicitar certificado de confirmaciÃ³n" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="200" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="Solicitar certificado de matrimonio" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="360" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" value="Solicitar constancia de solterÃ­a" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="520" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" value="Validar identidad del solicitante" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffebee;strokeColor=#c62828;" parent="system-boundary" vertex="1">
+          <mxGeometry x="520" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" value="Consultar registro parroquial" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffebee;strokeColor=#c62828;" parent="system-boundary" vertex="1">
+          <mxGeometry x="520" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="include5-label" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="470" y="280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="include2-label" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;" parent="system-boundary" vertex="1">
+          <mxGeometry x="440" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" value="FeligrÃ©s" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;fillColor=#e8f5e8;strokeColor=#4caf50;" parent="1" vertex="1">
+          <mxGeometry x="70" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor2" value="SecretarÃ­a&#xa;Parroquial" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;fillColor=#fff8e1;strokeColor=#ff9800;" parent="1" vertex="1">
+          <mxGeometry x="980" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel4" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel5" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel6" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor1" target="uc9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel7" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor2" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel8" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor2" target="uc3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel9" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor2" target="uc5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel10" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor2" target="uc10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel11" style="endArrow=none;html=1;rounded=0;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="actor2" target="uc11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uc1" target="uc2" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include1-label" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="include2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uc2" target="uc3" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uc4" target="uc5" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include3-label" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="include4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#666666;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uc11" target="uc3" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="include4-label" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="750" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="include5" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#666666;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uc10" target="uc5" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gen1" style="endArrow=block;endFill=0;html=1;rounded=0;strokeColor=#9c27b0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uc6" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gen2" style="endArrow=block;endFill=0;html=1;rounded=0;strokeColor=#9c27b0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uc7" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gen3" style="endArrow=block;endFill=0;html=1;rounded=0;strokeColor=#9c27b0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uc8" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gen4" style="endArrow=block;endFill=0;html=1;rounded=0;strokeColor=#9c27b0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uc9" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Diagrama de Casos de Uso - Sistema de EmisiÃ³n de Documentos Parroquiales" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+          <mxGeometry x="180" y="20" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Leyenda:&#xa;í ½í´µ Casos de uso del FeligrÃ©s&#xa;í ½í¿  Casos de uso de la SecretarÃ­a&#xa;í ½í¿£ Tipos especÃ­ficos de documentos&#xa;í ½í´´ ValidaciÃ³n y consultas" style="text;html=1;strokeColor=#cccccc;fillColor=#f9f9f9;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=monospace;" parent="1" vertex="1">
+          <mxGeometry x="50" y="650" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="process-info" value="InformaciÃ³n del Proceso:&#xa;â€¢ Tiempo: 5 minutos por documento&#xa;â€¢ Tipos: Bautismo, ConfirmaciÃ³n,&#xa;  Matrimonio, Constancia de solterÃ­a&#xa;â€¢ Requiere: IdentificaciÃ³n vÃ¡lida&#xa;â€¢ Incluye: Documento + Recibo" style="text;html=1;strokeColor=#cccccc;fillColor=#e8f5e8;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=monospace;" parent="1" vertex="1">
+          <mxGeometry x="350" y="650" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="process-flow" value="Flujo del Proceso:&#xa;1. Solicitud â†’ VerificaciÃ³n&#xa;2. VerificaciÃ³n â†’ GeneraciÃ³n&#xa;3. Pago â†’ Entrega&#xa;4. ValidaciÃ³n de identidad&#xa;5. Consulta de registros" style="text;html=1;strokeColor=#cccccc;fillColor=#fff3e0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=monospace;" parent="1" vertex="1">
+          <mxGeometry x="650" y="650" width="200" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
